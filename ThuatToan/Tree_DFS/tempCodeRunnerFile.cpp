@@ -1,0 +1,1 @@
+A[u][i] == 1 && chuaxet[i] == true
