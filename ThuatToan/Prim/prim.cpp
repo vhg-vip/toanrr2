@@ -24,10 +24,7 @@ bool DocFile(string tenfile){
 	ifstream read(tenfile.c_str());
 	if(read.is_open()){
 		read >> n;
-		//read >> n >> s >> t;
 		cout << "\n So dinh cua do thi: " << n;
-		//cout << "\n Dinh bat dau duong di s = " << s;
-		//cout << "\n Dinh cuoi duong di t = " << t;
 		cout << "\n Ma tran ke:";
 		for(int i=1; i<=n; i++){
 			cout << "\n";
